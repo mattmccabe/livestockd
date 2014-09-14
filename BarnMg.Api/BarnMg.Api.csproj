@@ -44,9 +44,6 @@
     <Reference Include="ServiceStack.Interfaces">
       <HintPath>..\..\Frameworks\ServiceStack\3.9.71\ServiceStack.Interfaces.dll</HintPath>
     </Reference>
-    <Reference Include="ServiceStack.OrmLite">
-      <HintPath>..\..\Frameworks\ServiceStack\3.9.71\ServiceStack.OrmLite.dll</HintPath>
-    </Reference>
     <Reference Include="ServiceStack.ServiceInterface">
       <HintPath>..\..\Frameworks\ServiceStack\3.9.71\ServiceStack.ServiceInterface.dll</HintPath>
     </Reference>
