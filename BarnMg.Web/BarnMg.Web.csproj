@@ -76,6 +76,7 @@
     <Content Include="swagger-ui\lib\jquery.wiggle.min.js" />
     <Content Include="swagger-ui\lib\swagger.js" />
     <Content Include="swagger-ui\lib\underscore-min.js" />
+    <Content Include="config\web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -106,5 +107,8 @@
       <Project>{4F76B70F-2653-44A7-833F-9A8DD42F4B31}</Project>
       <Name>BarnMg.ServiceModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="config\" />
   </ItemGroup>
 </Project>
