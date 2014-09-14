@@ -2,6 +2,8 @@ using BarnMg.ServiceInterface;
 using ServiceStack;
 using ServiceStack.WebHost.Endpoints;
 using ServiceStack.Api.Swagger;
+using ServiceStack.Text;
+using System.Configuration;
 
 
 namespace BarnMg.Web
@@ -34,6 +36,15 @@ namespace BarnMg.Web
 		{
 			//Register custom serialization example
 			ServiceStack.Text.JsConfig.DateHandler = ServiceStack.Text.JsonDateHandler.ISO8601;
+
+			JsConfig<ServiceStack.Api.Swagger.ResourceResponse>.OnSerializingFn = rr => {
+				rr.BasePath = ConfigurationManager.AppSettings ["swaggerBasePath"];
+				return rr;
+			};
+			JsConfig<ServiceStack.Api.Swagger.ResourcesResponse>.OnSerializingFn = rr => {
+				rr.BasePath = ConfigurationManager.AppSettings ["swaggerBasePath"];
+				return rr;
+			};
 
 			new AppHost().Init();
 		}
