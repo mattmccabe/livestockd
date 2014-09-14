@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnMg.Web", "BarnMg.Web\BarnMg.Web.csproj", "{FA34D46F-78C5-4F31-88D1-F43D6F19260A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnMg.ServiceInterface", "BarnMg.ServiceInterface\BarnMg.ServiceInterface.csproj", "{8AB7DC32-199A-4455-B116-52AF9C609A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnMg.ServiceModel", "BarnMg.ServiceModel\BarnMg.ServiceModel.csproj", "{4F76B70F-2653-44A7-833F-9A8DD42F4B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarnMg.Api", "BarnMg.Api\BarnMg.Api.csproj", "{F834FB28-E442-4DAA-B435-EAE1DA7E172E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F76B70F-2653-44A7-833F-9A8DD42F4B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F76B70F-2653-44A7-833F-9A8DD42F4B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F76B70F-2653-44A7-833F-9A8DD42F4B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F76B70F-2653-44A7-833F-9A8DD42F4B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB7DC32-199A-4455-B116-52AF9C609A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB7DC32-199A-4455-B116-52AF9C609A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB7DC32-199A-4455-B116-52AF9C609A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB7DC32-199A-4455-B116-52AF9C609A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F834FB28-E442-4DAA-B435-EAE1DA7E172E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F834FB28-E442-4DAA-B435-EAE1DA7E172E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F834FB28-E442-4DAA-B435-EAE1DA7E172E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F834FB28-E442-4DAA-B435-EAE1DA7E172E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA34D46F-78C5-4F31-88D1-F43D6F19260A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA34D46F-78C5-4F31-88D1-F43D6F19260A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA34D46F-78C5-4F31-88D1-F43D6F19260A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA34D46F-78C5-4F31-88D1-F43D6F19260A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BarnMg.Web\BarnMg.Web.csproj
+	EndGlobalSection
+EndGlobal
