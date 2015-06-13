@@ -49,6 +49,8 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BarnService.cs" />
+    <Compile Include="CycleService.cs" />
+    <Compile Include="WaterService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

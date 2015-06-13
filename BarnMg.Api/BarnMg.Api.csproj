@@ -58,6 +58,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BarnApi.cs" />
     <Compile Include="Util\ApiBase.cs" />
+    <Compile Include="CycleApi.cs" />
+    <Compile Include="BarnLogApi.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

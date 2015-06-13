@@ -5,7 +5,7 @@ using MongoDB.Driver;
 
 namespace BarnMg.Api
 {
-	public class ApiBase
+	public abstract class ApiBase
 	{
 		public ApiBase ()
 		{
@@ -22,6 +22,13 @@ namespace BarnMg.Api
 			var server = GetMongoServer ();
 			return server.GetDatabase ("livestockd");
 		}
+
+		public MongoCollection<T> GetCollection<T>()
+		{
+			return GetDatabase ().GetCollection<T>(CollectionName);
+		}
+
+		protected abstract string CollectionName { get; }
 			
 	}
 }

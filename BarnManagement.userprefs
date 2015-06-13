@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BarnMg.ServiceModel/Types/BarnCycleLog.cs">
+    <Files>
+      <File FileName="BarnMg.Web/swagger-ui/lib/swagger.js" Line="45" Column="45" />
+      <File FileName="BarnMg.ServiceModel/Types/WaterLogDto.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.ServiceModel/WaterLog.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.ServiceInterface/BarnService.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.ServiceInterface/CycleService.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.Api/CycleApi.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.ServiceInterface/WaterService.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.Api/BarnLogApi.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.Web/swagger-ui/swagger-ui.js" Line="1" Column="1" />
+      <File FileName="BarnMg.Web/Global.asax.cs" Line="1" Column="1" />
+      <File FileName="BarnMg.Api/Util/ApiBase.cs" Line="20" Column="20" />
+      <File FileName="BarnMg.ServiceModel/Types/BarnCycleLog.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../dev/PVT/foundation/server/app/Polymer/PolymerViewService.cs" line="71" offsetX="650" offsetY="1050" expression="viewData" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

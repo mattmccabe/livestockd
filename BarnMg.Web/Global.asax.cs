@@ -27,7 +27,7 @@ namespace BarnMg.Web
 			{
 				//register any dependencies your services use, e.g:
 				//container.Register<ICacheClient>(new MemoryCacheClient());
-				Plugins.Add (new SwaggerFeature() );
+				Plugins.Add (new SwaggerFeature());
 			}
 		}
 

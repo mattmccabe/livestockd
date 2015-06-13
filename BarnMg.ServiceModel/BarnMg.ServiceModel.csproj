@@ -45,11 +45,19 @@
     <Reference Include="ServiceStack">
       <HintPath>..\Frameworks\ServiceStack\ServiceStack.dll</HintPath>
     </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>..\Frameworks\Mongo\MongoDB.Bson.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Types\BarnDto.cs" />
     <Compile Include="Barn.cs" />
+    <Compile Include="Types\BarnCycleDto.cs" />
+    <Compile Include="BarnCycle.cs" />
+    <Compile Include="Types\BarnCycleLog.cs" />
+    <Compile Include="Types\WaterLogDto.cs" />
+    <Compile Include="WaterLog.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

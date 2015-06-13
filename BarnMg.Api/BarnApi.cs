@@ -19,9 +19,12 @@ namespace BarnMg.Api
 
 		}
 
+		protected override string CollectionName { get { return "barns"; } }
+
+
 		public MongoCollection<BarnDto> GetBarnCollection()
 		{
-			return GetDatabase ().GetCollection<BarnDto> ("barns");
+			return GetCollection<BarnDto>();
 		}
 
 		public List<BarnDto> GetBarnsByAccount(int accountId)
@@ -50,8 +53,7 @@ namespace BarnMg.Api
 			var q = Query<BarnDto>.EQ (b => b.Id,  dto.Id);
 			return GetBarnCollection ().FindOne(q);
 		}
-
-
+			
 	}
 }
 
